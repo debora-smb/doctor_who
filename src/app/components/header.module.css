@@ -5,10 +5,25 @@
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    height: 150px;
 }
 
 .header__navbar{
     display: flex;
     justify-content: space-between;
+    width: 30%;
+}
+
+.header__iconsSection{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.header__logo{
+    margin-top: 60px;
 }
