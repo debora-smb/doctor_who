@@ -1,0 +1,21 @@
+.footer{
+    border-top: 2px solid #FFFFFF ;
+    background-color: #040521;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    height: 80px;
+}
+
+.footer__iconsSection{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    gap:20px;
+}
+
+.footer__image{
+    height: 40px;
+}
