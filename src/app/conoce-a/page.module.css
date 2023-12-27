@@ -1,43 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
 .main{
-    background-color: black;
+    background-color: #040521;
     display: flex;
-    padding: 40px;
-    border: 2px solid red;
+    align-items: center;
 }
 
-.info{
+.mainContent{
     z-index: 1;
-    width: 700px;
+    position:absolute;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    align-items: start;
 }
-
-.KnowDetails{
+.knowDetails{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    height: 530px;
+}
+
+.knowTitle{
+    color: white;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    width: 85%;
+    text-align: center;
+}
+
+.knowText{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     width: 80%;
 }
 
-.KnowTitle{
-    color: white;
-    font-size: 64px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    width: 90%;
-    text-align: center;
-
+.knowImage{
+    object-fit: cover;
+    height: 520px;
+    width: 400px;
+    padding-bottom: 20px;
 }
 
-.KnowText{
-    color: white;
-    text-align: center;
-    font-size: 32px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    width: 70%;
+.knowBackground{
+    width: 100%;
+   z-index: 0;
+   display: flex;
+  
+}
+.backgroundOne{
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    width: 45%;
 }
 
-.KnowImage{
-    width: 606px;
-}
+.backgroundTwo{
+
+}  
 

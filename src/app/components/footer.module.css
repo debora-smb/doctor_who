@@ -5,8 +5,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 100px;
-    height: 80px;
+    padding: 35px 100px;
+    height: 60px;
 }
 
 .footer__iconsSection{
@@ -16,6 +16,3 @@
     gap:20px;
 }
 
-.footer__image{
-    height: 40px;
-}

@@ -9,8 +9,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 60px;
-    height: 150px;
+    padding: 20px 60px;
+    height: 115px;
 }
 
 .header__navbar{
@@ -32,7 +32,7 @@
 }
 
 .header__logo{
-    margin-top: 60px;
+    margin-top: 45px;
     z-index: 1;
 }
 
@@ -40,7 +40,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    
 }
 
 

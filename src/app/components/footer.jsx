@@ -15,20 +15,20 @@ export default function Footer(){
             <div className={styles.footer__iconsSection}>
                 <Image
                     src="/img/icons/facebook.svg"
-                    width={24}
-                    height={24}
+                    width={20}
+                    height={20}
                     alt="Logo de Facebook"
                 />
                 <Image
                     src="/img/icons/simple-icons_x.svg"
-                    width={24}
-                    height={24}
+                    width={20}
+                    height={20}
                     alt="Logo de Twitter"
                 />
                 <Image
                     src="/img/icons/mdi_instagram.svg"
-                    width={24}
-                    height={24}
+                    width={20}
+                    height={20}
                     alt="Logo de Instagram"
                 />
                 <Image
