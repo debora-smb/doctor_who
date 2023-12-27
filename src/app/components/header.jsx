@@ -1,5 +1,6 @@
 import styles from './header.module.css'
 import Image from 'next/image'
+import FormExample from './searchbar'
 
 
 export default function Header(){
@@ -17,6 +18,15 @@ export default function Header(){
                     height={190}
                     alt="Logo de Doctor Who"
                 />
+            <div className={styles.header__searchbar}>
+            <Image
+                    src="/img/icons/material-symbols-light_search.svg"
+                    width={24}
+                    height={24}
+                    alt="Lupa"
+                />
+            <FormExample/>
+            </div>
             <div className={styles.header__iconsSection}>
                 <Image
                     src="/img/icons/facebook.svg"

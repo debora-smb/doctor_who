@@ -1,0 +1,43 @@
+.main{
+    background-color: black;
+    display: flex;
+    padding: 40px;
+    border: 2px solid red;
+}
+
+.info{
+    z-index: 1;
+    width: 700px;
+}
+
+.KnowDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.KnowTitle{
+    color: white;
+    font-size: 64px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    width: 90%;
+    text-align: center;
+
+}
+
+.KnowText{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 70%;
+}
+
+.KnowImage{
+    width: 606px;
+}
+

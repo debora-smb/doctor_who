@@ -5,6 +5,7 @@
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,6 +17,12 @@
     display: flex;
     justify-content: space-between;
     width: 30%;
+    
+}
+
+.header__navbar a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .header__iconsSection{
@@ -26,4 +33,14 @@
 
 .header__logo{
     margin-top: 60px;
+    z-index: 1;
 }
+
+.header__searchbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+

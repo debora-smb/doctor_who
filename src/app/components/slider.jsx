@@ -1,42 +1,54 @@
 "use client"
 import Carousel from 'react-bootstrap/Carousel';
+import styles from './slider.module.css'
+import Button from './button';
 
 function UncontrolledExample() {
     return (
-        <Carousel>
-            <Carousel.Item>
-                <img src="/img/carrusel/carrusel-2.jpg" text="First slide" />
-                <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <Carousel className={styles.slider}>
+            <Carousel.Item className={styles.sliderItem}>
+                <img src="/img/carrusel/carrusel-2.jpg" text="First slide" className={styles.sliderImage} />
+                <Carousel.Caption className={styles.sliderCaption}>
+                <div className={styles.sliderCaptionContainer}>
+                        <h3 className={styles.sliderTitle}>The Giggle</h3>
+                        <Button className={styles.sliderButton}/>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
-                <img src="/img/carrusel/carrusel-1.webp" text="Second slide" />
-                <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <Carousel.Item className={styles.sliderItem}>
+                <img src="/img/carrusel/carrusel-1.webp" text="Second slide" className={styles.sliderImage} />
+                <Carousel.Caption className={styles.sliderCaption}>
+                <div className={styles.sliderCaptionContainer}>
+                        <h3 className={styles.sliderTitle}>Allons-y!</h3>
+                        <Button className={styles.sliderButton}/>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
-                <img src="/img/carrusel/carrusel-2.jpg" text="Third slide" />
-                <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <Carousel.Item className={styles.sliderItem}>
+                <img src="/img/carrusel/carrusel-2.jpg" text="Third slide" className={styles.sliderImage} />
+                <Carousel.Caption className={styles.sliderCaption}>
+                <div className={styles.sliderCaptionContainer}>
+                        <h3 className={styles.sliderTitle}>The Giggle</h3>
+                        <Button className={styles.sliderButton}/>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
-                <img src="/img/carrusel/carrusel-1.webp" text="Forth slide" />
-                <Carousel.Caption>
-                    <h3>Forth slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <Carousel.Item className={styles.sliderItem}>
+                <img src="/img/carrusel/carrusel-1.webp" text="Forth slide" className={styles.sliderImage} />
+                <Carousel.Caption className={styles.sliderCaption}>
+                    <div className={styles.sliderCaptionContainer}>
+                        <h3 className={styles.sliderTitle}>Allons-y!</h3>
+                        <Button className={styles.sliderButton}/>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
-                <img src="/img/carrusel/carrusel-2.jpg" text="Fifth slide" />
-                <Carousel.Caption>
-                    <h3>Fifth slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <Carousel.Item className={styles.sliderItem}>
+                <img src="/img/carrusel/carrusel-2.jpg" text="Fifth slide" className={styles.sliderImage} />
+                <Carousel.Caption className={styles.sliderCaption}>
+                    <div className={styles.sliderCaptionContainer}>
+                        <h3 className={styles.sliderTitle}>The Giggle</h3>
+                        <Button className={styles.sliderButton}/>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
