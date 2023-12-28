@@ -6,19 +6,19 @@ import FormExample from './searchbar'
 export default function Header(){
     return (
         <header className={styles.header}>
-            <nav className={styles.header__navbar}>            
+            <nav className={styles.headerNavbar}>            
                 <a href="conoce-a">Conoce a</a>
                 <a href="doctors">Doctores</a>
                 <a href="contact">Contacto</a>
             </nav>
             <Image
-                    className={styles.header__logo}
+                    className={styles.headerLogo}
                     src="/img/logos/logo.png"
                     width={150}
                     height={150}
                     alt="Logo de Doctor Who"
                 />
-            <div className={styles.header__searchbar}>
+            <div className={styles.headerSearchbar}>
             <Image
                     src="/img/icons/material-symbols-light_search.svg"
                     width={20}
@@ -27,7 +27,7 @@ export default function Header(){
                 />
             <FormExample/>
             </div>
-            <div className={styles.header__iconsSection}>
+            <div className={styles.headerIconsSection}>
                 <Image
                     src="/img/icons/facebook.svg"
                     width={20}

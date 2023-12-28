@@ -1,0 +1,11 @@
+.contactForm{
+    background-color: #040521;
+    border-radius: 0;
+    border: 2px solid white;
+    
+}
+
+.contactForm ::placeholder{
+    color:aqua
+
+}

@@ -1,10 +1,46 @@
-.main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 6rem;
-    min-height: 100vh;
-    background-color: blue;
-  }
-  
+.main{
+  display: flex;
+  background-color: #040521;
+  padding: 50px 100px;
+}
+
+.contactSection{
+  width: 40%;
+}
+
+.contactButton{
+    background-color: #FFC67E;
+    width: 290px;
+    height: 62px;
+    color: black;
+    border-radius: 48px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.contactTitle{
+  color: white;
+  width: 80%;
+  font-size: 58px;
+  text-align: center;
+}
+
+.backgroundWhite{
+z-index: 2;
+top: 600px;
+position: absolute;
+
+}
+
+.backgroundYellow{
+  z-index: 1;
+  top: 250px;
+  left: 300px;
+  position: absolute;
+}
+
+.backgroundBlue{
+  z-index: 0;
+}

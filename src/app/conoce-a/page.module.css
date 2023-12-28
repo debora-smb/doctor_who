@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
 
 .main{
     background-color: #040521;
@@ -21,6 +21,7 @@
     align-items: center;
     width: 50%;
     height: 530px;
+    border: 2px solid red;
 }
 
 .knowTitle{
