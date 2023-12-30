@@ -1,15 +1,14 @@
 import styles from './page.module.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
-import OffcanvasExample from '../components/hamburger'
+import BurgerMenu from '../components/burger'
 
 export default function Home() {
   return (
     <>
-    <Header/>
+    <BurgerMenu/>
     <main className={styles.main}>
     </main>
-    <Footer/>
     </>
   )
 }

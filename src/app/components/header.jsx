@@ -1,6 +1,7 @@
 import styles from './header.module.css'
 import Image from 'next/image'
 import SearchBar from './searchbar'
+import BurgerMenu from './burger'
 
 
 export default function Header(){
@@ -53,13 +54,7 @@ export default function Header(){
                     alt="Logo de Tiktok"
                 />
             </div>
-            <Image
-                    src="/img/icons/material-symbols_menu.svg"
-                    width={58}
-                    height={58}
-                    alt="Menu hamburguesa"
-                    className={styles.menuhamburguesa}
-                />
+            <BurgerMenu />
         </header>
     )
 }

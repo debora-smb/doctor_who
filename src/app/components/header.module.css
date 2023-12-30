@@ -16,9 +16,10 @@
 }
 
 .headerLogo{
-    height: 6rem;
-    width: 5.9rem;
-    z-index: 1;
+    /* height: 6rem;
+    width: 5.9rem; */
+    display: none;
+    
 }
 
 @media (min-width: 1000px)  {
