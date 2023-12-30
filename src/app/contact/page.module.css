@@ -71,8 +71,10 @@
   }
   
   .contactButton{
-    width: 290px;
-    font-size: 32px;
+    width: 240px;
+    font-size: 28px;
+    height: 46px;
+    margin-top: 15px;
   }
   
   .contactTitle{
@@ -94,9 +96,9 @@
   }
   
   .backgroundBlue{
-    left:235px;
-    top: 311px;
-    width: 130px;
+    left:220px;
+    top: 305px;
+    width: 150px;
   }
   
 }

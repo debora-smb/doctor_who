@@ -53,6 +53,13 @@ export default function Header(){
                     alt="Logo de Tiktok"
                 />
             </div>
+            <Image
+                    src="/img/icons/material-symbols_menu.svg"
+                    width={58}
+                    height={58}
+                    alt="Menu hamburguesa"
+                    className={styles.menuhamburguesa}
+                />
         </header>
     )
 }
