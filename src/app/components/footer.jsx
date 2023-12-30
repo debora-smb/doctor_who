@@ -6,13 +6,13 @@ export default function Footer(){
     return (
         <footer className={styles.footer}>
             <Image
-                    className={styles.footer__image}
+                    className={styles.footerImage}
                     src="/img/logos/logo-cadena.png"
-                    width={40}
-                    height={40}
+                    width={30}
+                    height={30}
                     alt="Logo Doctor Who Cadena"
                 />
-            <div className={styles.footer__iconsSection}>
+            <div className={styles.footerIconsSection}>
                 <Image
                     src="/img/icons/facebook.svg"
                     width={20}
@@ -27,8 +27,8 @@ export default function Footer(){
                 />
                 <Image
                     src="/img/icons/mdi_instagram.svg"
-                    width={20}
-                    height={20}
+                    width={24}
+                    height={24}
                     alt="Logo de Instagram"
                 />
                 <Image

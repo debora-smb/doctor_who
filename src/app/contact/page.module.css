@@ -1,46 +1,102 @@
 .main{
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #040521;
-  padding: 50px 100px;
+  
 }
 
 .contactSection{
-  width: 40%;
-}
-
-.contactButton{
-    background-color: #FFC67E;
-    width: 290px;
-    height: 62px;
-    color: black;
-    border-radius: 48px;
-    border: none;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
+  width: 100%;
+  z-index: 3;
+  padding: 20px 50px;
 }
 
 .contactTitle{
-  color: white;
-  width: 80%;
-  font-size: 58px;
+  color: var(--tertiary-color);
+  width: 90%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
   text-align: center;
 }
 
+.contactButton{
+  background-color: var(--secundary-color);
+  width: 250px;
+  height: 56px;
+  color: var(--background-color);
+  border-radius: 48px;
+  border: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 25px;
+}
+
 .backgroundWhite{
-z-index: 2;
-top: 600px;
-position: absolute;
-
-}
-
-.backgroundYellow{
-  z-index: 1;
-  top: 250px;
-  left: 300px;
+  z-index: 2;
+  top: 440px;
+  width: 250px;
   position: absolute;
-}
+  }
+  
+  .backgroundYellow{
+    z-index: 1;
+    top: 255px;
+    left: 190px;
+    position: absolute;
+    width: 299px;
+  }
+  
+  .backgroundBlue{
+    z-index: 0;
+    left:5px;
+    top: 240px;
+    width: 240px;
+    position: absolute;
+  }
 
-.backgroundBlue{
-  z-index: 0;
+@media (min-width: 1000px)  {
+  .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 100px;
+  }
+  
+  .contactSection{
+    width: 40%;
+    padding-bottom: 48px;
+  }
+  
+  .contactButton{
+    width: 290px;
+    font-size: 32px;
+  }
+  
+  .contactTitle{
+    width: 80%;
+    font-size: 56px;
+  }
+  
+  .backgroundWhite{
+  top: 440px;
+  left:180px;
+  width: 190px;
+  
+  }
+  
+  .backgroundYellow{
+    top: 255px;
+    left: 300px;
+    width: 365px;
+  }
+  
+  .backgroundBlue{
+    left:235px;
+    top: 311px;
+    width: 130px;
+  }
+  
 }

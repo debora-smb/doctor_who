@@ -1,8 +1,8 @@
 .button{
-    background-color: #FFC67E;
+    background-color: var(--secundary-color);
     width: 255px;
     height: 74px;
-    color: black;
+    color: var(--background-color);
     border-radius: 50px;
     border: none;
     font-family: 'Lato', sans-serif;

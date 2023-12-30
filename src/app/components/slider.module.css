@@ -5,7 +5,7 @@
 
 .sliderItem{
     width: 100%;
-    height: 542px;
+    height: 490px;
 }
 
 .sliderCaptionContainer{
@@ -14,17 +14,17 @@
     flex-direction: column;
     align-items:start;
     justify-content: center;
-    gap: 3rem;
+    gap: 1rem;
 }
 
 .sliderTitle{
-    font-size: 64px;
+    font-size: 48px;
     font-family: 'Lato', sans-serif;
     font-weight: 800;
 }
 
 .sliderImage{
-height: 120%;
+height: 100%;
 width: 100%;
 object-fit: cover;
 
@@ -32,4 +32,26 @@ object-fit: cover;
 
 .sliderCaption{
     height: 100%;
+}
+
+
+@media (min-width: 1000px)  {
+
+    .sliderItem{
+        height: 542px;
+    }
+
+    .sliderCaptionContainer{
+        gap: 3rem;
+    }
+
+    .sliderTitle{
+        font-size: 64px;
+    }
+
+    .sliderImage{
+        height: 120%;
+        }
+
+
 }

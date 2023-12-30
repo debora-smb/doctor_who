@@ -2,7 +2,6 @@ import styles from './page.module.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import ContactForm from '../components/form'
-import Image from 'next/image'
 
 export default function Contact() {
   return (
@@ -11,24 +10,18 @@ export default function Contact() {
       <main className={styles.main}>
         <section className={styles.backgroundSection}>
           <h1 className={styles.contactTitle}>Envía tu mensaje al Doctor</h1>
-          <Image
-            src="/img/svg/persistencia.svg"
-            width={275}
-            height={275}
-            alt="Persistencia"
+          <img 
+            src="/img/svg/persistencia.svg" 
+            alt="Persistencia" 
             className={styles.backgroundBlue}
           />
-          <Image
+          <img
             src="/img/svg/resistencia.svg"
-            width={540}
-            height={540}
             alt="Resistencia"
             className={styles.backgroundYellow}
           />
-          <Image
+          <img
             src="/img/svg/vencer.svg"
-            width={325}
-            height={325}
             alt="Vencer"
             className={styles.backgroundWhite}
           />

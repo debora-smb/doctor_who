@@ -1,6 +1,6 @@
 import styles from './header.module.css'
 import Image from 'next/image'
-import FormExample from './searchbar'
+import SearchBar from './searchbar'
 
 
 export default function Header(){
@@ -25,7 +25,7 @@ export default function Header(){
                     height={20}
                     alt="Lupa"
                 />
-            <FormExample/>
+            <SearchBar/>
             </div>
             <div className={styles.headerIconsSection}>
                 <Image
@@ -42,14 +42,14 @@ export default function Header(){
                 />
                 <Image
                     src="/img/icons/mdi_instagram.svg"
-                    width={20}
-                    height={20}
+                    width={24}
+                    height={24}
                     alt="Logo de Instagram"
                 />
                 <Image
                     src="/img/icons/ic_baseline-tiktok.svg"
-                    width={20}
-                    height={20}
+                    width={24}
+                    height={24}
                     alt="Logo de Tiktok"
                 />
             </div>
