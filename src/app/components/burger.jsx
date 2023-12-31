@@ -1,59 +1,59 @@
-import React from "react";
-import styles from './burger.module.css'
-import SearchBar from "./searchbar";
-import Image from 'next/image'
+"use client"
+import React, {useState} from 'react';
+import styles from "./burger.module.css"
+import SearchBar from './searchbar';
+import SearchBarMobile from './searchbarmobile';
 
 export default function BurgerMenu() {
+
+    const [isOpen, setIsOpen] = useState(false)
     return (
         <div className={styles.headerMobile}>
-            <Image
-                    className={styles.headerLogo}
+            <a href="http://localhost:3000/">
+                <img
+                    className={styles.headerMobileLogo}
                     src="/img/logos/logo.png"
-                    width={95}
-                    height={96}
                     alt="Logo de Doctor Who"
                 />
-            <div className={styles.navItems}>
-                <a href="/conoce-a">Conoce a</a>
-                <a href="/doctors">Doctores</a>
-                <a href="/contact">Contacto</a>
-                <SearchBar />
-                <div className={styles.headerIconsSection}>
-                    <Image
-                        src="/img/icons/facebook.svg"
-                        width={20}
-                        height={20}
-                        alt="Logo de Facebook"
-                    />
-                    <Image
-                        src="/img/icons/simple-icons_x.svg"
-                        width={20}
-                        height={20}
-                        alt="Logo de Twitter"
-                    />
-                    <Image
-                        src="/img/icons/mdi_instagram.svg"
-                        width={24}
-                        height={24}
-                        alt="Logo de Instagram"
-                    />
-                    <Image
-                        src="/img/icons/ic_baseline-tiktok.svg"
-                        width={24}
-                        height={24}
-                        alt="Logo de Tiktok"
-                    />
+            </a>    
+            <div className={`${styles.menuItems} ${isOpen && styles.open}`}>
+                <a href="#"> Conoce a</a>
+                <a href="#"> Doctores</a>
+                <a href="#"> Contacto</a>
+                <div className={styles.mobileSearch}>
+                    <SearchBarMobile/>
+                </div>
+                <div className={styles.menuMobileIcons}>
+                    <a href="#">
+                        <img
+                            src="/img/icons/facebook.svg"
+                            alt="Logo de Facebook"
+                        /></a>
+                    <a href="#">
+                        <img
+                            src="/img/icons/simple-icons_x.svg"
+                            alt="Logo de Twitter"
+                        /></a>
+                    <a href="#">
+                        <img
+                            src="/img/icons/mdi_instagram.svg"
+                            alt="Logo de Instagram"
+                        /></a>
+                    <a href="#">
+                        <img
+                            src="/img/icons/ic_baseline-tiktok.svg"
+                            alt="Logo de Tiktok"
+                        /></a>
                 </div>
 
             </div>
-            <div className={styles.navToggle}>
+            <div className={`${styles.menuToggle} ${isOpen && styles.open}`} onClick={() => setIsOpen(!isOpen)} >
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
         </div>
-
-
     )
 }
 
+   

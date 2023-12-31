@@ -1,31 +1,76 @@
 .headerMobile{
+    z-index: 5;
+    background-color: var(--background-color);
+    height: 7.2rem;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
-    background-color: var(--background-color);
+    padding: 0.3rem 0;
 }
 
-.navItems{
-    position: absolute;
-    top: 100px;
-    left: 0;
-    background-color: var(--background-color);
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: '-webkit-fill-available';
-    transition: 0.3s ease all;
-
+.headerMobileLogo{
+    height: 6rem;
+    width: 5.9rem;
 }
-
-.navItems a{
-    margin: 15px;
+.menuItems a{
+    z-index: 5;
+    margin: 0.9rem;
     color: var(--tertiary-color);
     position: relative;
     text-decoration: none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
 }
 
-.navToogle{
-    display: none;
-}
+    .menuItems{
+        z-index: 5;
+        position: absolute;
+        top: 7.2rem;
+        left:0;
+        background-color: var(--background-color);
+        padding: 0.3rem 0 1.2rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: '-webkit-fill-available';        
+        transform: translateX(-100%);
+        transition: 0.3s ease all;
+    }
+    
+    .menuItems.open{
+        transform: translateX(0) !important
+    }
+
+    .menuMobileIcons a img{
+        width: 0.9rem;;
+    }
+
+
+    .menuToggle{
+        display: flex !important;
+        flex-direction: column;                
+        margin: 0.9rem;;
+    }
+    .menuToggle span{
+        width: 1.87rem;
+        height: 0.25rem;
+        background: white;
+        margin-bottom: 0.3rem;
+        border-radius: 0.125rem;             
+        transform-origin: 5px 0px;
+        transition: all 0.2s linear;
+    }
+    .menuToggle.open > span{
+        transform: rotate(45deg) translate(0px, 0px);
+    }
+    .menuToggle.open > span:nth-child(2){
+        display: none;
+    }
+    .menuToggle.open > span:nth-child(3){
+        transform: rotate(-45deg) translate(-5px, 1px);
+    }
