@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import styles from './searchbar.module.css'
 
-function SearchBar() {
+export default function SearchBar() {
   return (
     <Navbar  className="bg-body-tertiaryjustify-content-between">
       <Form inline className={styles.searchBar1}>
@@ -18,7 +18,7 @@ function SearchBar() {
               }}
               type="text"
               placeholder="Buscar"
-              placeholderTextColor= "white"
+              placeholdertextcolor= "white"
               className={styles.searchBarBorder}
             />
           </Col>
@@ -28,4 +28,3 @@ function SearchBar() {
   );
 }
 
-export default SearchBar;

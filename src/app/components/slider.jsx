@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import styles from './slider.module.css'
 import Button from './button';
 
-function Slider() {
+export default function Slider() {
     return (
         <Carousel className={styles.slider}>
             <Carousel.Item className={styles.sliderItem}>
@@ -54,5 +54,3 @@ function Slider() {
         </Carousel>
     );
 }
-
-export default Slider;

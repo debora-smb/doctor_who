@@ -1,15 +1,14 @@
 .main{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  background-color: #040521;
-  
+  justify-content: center;
+  padding-top: 2.5rem;
 }
 
 .contactSection{
   width: 100%;
   z-index: 3;
-  padding: 20px 50px;
+  padding: 1.25rem 3.125rem;
 }
 
 .contactTitle{
@@ -17,43 +16,44 @@
   width: 90%;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
   text-align: center;
+  margin-left: 1.25rem;
 }
 
 .contactButton{
   background-color: var(--secundary-color);
-  width: 250px;
-  height: 56px;
+  width: 15.65rem;
+  height: 3.5rem;
   color: var(--background-color);
-  border-radius: 48px;
+  border-radius: 3rem;
   border: none;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  font-size: 28px;
-  margin-top: 25px;
+  font-size: 1.75rem;
+  margin-top: 1.56rem;
 }
 
 .backgroundWhite{
   z-index: 2;
-  top: 440px;
-  width: 250px;
+  top: 27.5rem;
+  width: 15.63rem;
   position: absolute;
   }
   
   .backgroundYellow{
     z-index: 1;
-    top: 255px;
-    left: 190px;
+    top: 15.94rem;
+    left: 11.88rem;
     position: absolute;
-    width: 299px;
+    width: 18.69rem;
   }
   
   .backgroundBlue{
     z-index: 0;
-    left:5px;
-    top: 240px;
-    width: 240px;
+    left:0.31rem;
+    top: 15rem;
+    width: 15rem;
     position: absolute;
   }
 
@@ -62,43 +62,43 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px 100px;
+    padding: 2.5rem 6.25rem;
   }
   
   .contactSection{
     width: 40%;
-    padding-bottom: 48px;
+    padding-bottom: 3rem;
   }
   
   .contactButton{
-    width: 240px;
-    font-size: 28px;
-    height: 46px;
-    margin-top: 15px;
+    width: 15rem;
+    font-size: 1.75rem;
+    height: 2.88rem;
+    margin-top: 0.94rem;
   }
   
   .contactTitle{
     width: 80%;
-    font-size: 56px;
+    font-size: 3.5rem;
   }
   
   .backgroundWhite{
-  top: 440px;
-  left:180px;
-  width: 190px;
+  top: 27.5rem;
+  left:11.25rem;
+  width: 11.88rem;
   
   }
   
   .backgroundYellow{
-    top: 255px;
-    left: 300px;
-    width: 365px;
+    top: 14rem;
+    left: 18.75rem;
+    width: 22.81rem;
   }
   
   .backgroundBlue{
-    left:220px;
-    top: 305px;
-    width: 150px;
+    left:13.75rem;
+    top: 19rem;
+    width: 6.56rem;
   }
   
 }

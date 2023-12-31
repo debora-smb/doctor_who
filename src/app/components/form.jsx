@@ -2,7 +2,7 @@
 import Form from 'react-bootstrap/Form';
 import styles from './form.module.css';
 
-function ContactForm() {
+export default function ContactForm() {
   return (
     <Form >
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -29,5 +29,3 @@ function ContactForm() {
     </Form>
   );
 }
-
-export default ContactForm;

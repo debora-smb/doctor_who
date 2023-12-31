@@ -17,9 +17,9 @@ export default function BurgerMenu() {
                 />
             </a>    
             <div className={`${styles.menuItems} ${isOpen && styles.open}`}>
-                <a href="#"> Conoce a</a>
-                <a href="#"> Doctores</a>
-                <a href="#"> Contacto</a>
+                <a href="conoce-a"> Conoce a</a>
+                <a href="/doctors"> Doctores</a>
+                <a href="/contact"> Contacto</a>
                 <div className={styles.mobileSearch}>
                     <SearchBarMobile/>
                 </div>
@@ -55,5 +55,3 @@ export default function BurgerMenu() {
         </div>
     )
 }
-
-   

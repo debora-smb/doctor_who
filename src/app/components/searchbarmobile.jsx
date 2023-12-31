@@ -28,7 +28,7 @@ export default function SearchBarMobile() {
                   color: '#FFFFFF',
                 }}
                 type="text"
-                placeholderTextColor="white"
+                placeholdertextcolor="white"
                 className={styles.searchBarBorder}
               />
             </Col>

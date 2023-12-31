@@ -20,5 +20,3 @@
 //     </Card>
 //   );
 // }
-
-export default DoctorCard;
