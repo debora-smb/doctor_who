@@ -1,0 +1,18 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 60px;
+}
+
+.doctorCards{
+    display: flex;
+    justify-content: center;
+    border: solid red;
+    
+}
+
+.doctorCard{
+    display: flex;
+    flex-wrap: wrap;
+}
+

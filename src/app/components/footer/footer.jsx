@@ -7,7 +7,7 @@ export default function Footer(){
         <footer className={styles.footer}>
             <Image
                 className={styles.footerImage}
-                src="/img/logos/logo-cadena.png"
+                src="/assets/img/logos/logo-cadena.png"
                 width={30}
                 height={30}
                 alt="Logo Doctor Who Cadena"
@@ -15,7 +15,7 @@ export default function Footer(){
             <div className={styles.footerIconsSection}>
                 <a href="#">
                     <Image
-                        src="/img/icons/facebook.svg"
+                        src="/assets/img/icons/facebook.svg"
                         width={20}
                         height={20}
                         alt="Logo de Facebook"
@@ -23,7 +23,7 @@ export default function Footer(){
                 </a>
                 <a href="#">
                     <Image
-                        src="/img/icons/simple-icons_x.svg"
+                        src="/assets/img/icons/simple-icons_x.svg"
                         width={20}
                         height={20}
                         alt="Logo de Twitter"
@@ -31,7 +31,7 @@ export default function Footer(){
                 </a>
                 <a href="#">
                     <Image
-                        src="/img/icons/mdi_instagram.svg"
+                        src="/assets/img/icons/mdi_instagram.svg"
                         width={24}
                         height={24}
                         alt="Logo de Instagram"
@@ -39,7 +39,7 @@ export default function Footer(){
                 </a>
                 <a href="#">
                     <Image
-                        src="/img/icons/ic_baseline-tiktok.svg"
+                        src="/assets/img/icons/ic_baseline-tiktok.svg"
                         width={24}
                         height={24}
                         alt="Logo de Tiktok"

@@ -1,7 +1,7 @@
 import styles from './header.module.css'
 import Image from 'next/image'
-import SearchBar from './searchbar'
-import BurgerMenu from './burger'
+import SearchBar from '../searchbar/searchbar'
+import BurgerMenu from '../burger/burger'
 
 
 export default function Header() {
@@ -14,7 +14,7 @@ export default function Header() {
             </nav>
             <a className={styles.headerLogo} href="http://localhost:3000/">
                 <Image
-                    src="/img/logos/logo.png"
+                    src="/assets/img/logos/logo.png"
                     width={150}
                     height={150}
                     alt="Logo de Doctor Who"
@@ -22,7 +22,7 @@ export default function Header() {
             </a>
             <div className={styles.headerSearchbar}>
                 <Image
-                    src="/img/icons/material-symbols-light_search.svg"
+                    src="/assets/img/icons/material-symbols-light_search.svg"
                     width={20}
                     height={20}
                     alt="Lupa"
@@ -32,7 +32,7 @@ export default function Header() {
             <div className={styles.headerIconsSection}>
                 <a href="#">
                     <Image
-                        src="/img/icons/facebook.svg"
+                        src="/assets/img/icons/facebook.svg"
                         width={20}
                         height={20}
                         alt="Logo de Facebook"
@@ -40,7 +40,7 @@ export default function Header() {
                 </a>
                 <a href="#">
                     <Image
-                        src="/img/icons/simple-icons_x.svg"
+                        src="/assets/img/icons/simple-icons_x.svg"
                         width={20}
                         height={20}
                         alt="Logo de Twitter"
@@ -48,7 +48,7 @@ export default function Header() {
                 </a>
                 <a href="#">
                     <Image
-                        src="/img/icons/mdi_instagram.svg"
+                        src="/assets/img/icons/mdi_instagram.svg"
                         width={24}
                         height={24}
                         alt="Logo de Instagram"
@@ -56,7 +56,7 @@ export default function Header() {
                 </a>
                 <a href="#">
                     <Image
-                        src="/img/icons/ic_baseline-tiktok.svg"
+                        src="/assets/img/icons/ic_baseline-tiktok.svg"
                         width={24}
                         height={24}
                         alt="Logo de Tiktok"

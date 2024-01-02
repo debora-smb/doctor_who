@@ -11,7 +11,7 @@ export default function SearchBarMobile() {
     <>
     <div className={styles.searchIcon}>
       <Image
-        src="/img/icons/material-symbols-light_search.svg"
+        src="/assets/img/icons/material-symbols-light_search.svg"
         width={20}
         height={20}
         alt="Lupa"

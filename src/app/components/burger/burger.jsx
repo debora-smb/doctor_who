@@ -1,8 +1,8 @@
 "use client"
 import React, {useState} from 'react';
 import styles from "./burger.module.css"
-import SearchBar from './searchbar';
-import SearchBarMobile from './searchbarmobile';
+import SearchBar from '../searchbar/searchbar';
+import SearchBarMobile from '../searchbar/searchbarmobile';
 
 export default function BurgerMenu() {
 
@@ -26,22 +26,22 @@ export default function BurgerMenu() {
                 <div className={styles.menuMobileIcons}>
                     <a href="#">
                         <img
-                            src="/img/icons/facebook.svg"
+                            src="/assets/img/icons/facebook.svg"
                             alt="Logo de Facebook"
                         /></a>
                     <a href="#">
                         <img
-                            src="/img/icons/simple-icons_x.svg"
+                            src="/assets/img/icons/simple-icons_x.svg"
                             alt="Logo de Twitter"
                         /></a>
                     <a href="#">
                         <img
-                            src="/img/icons/mdi_instagram.svg"
+                            src="/assets/img/icons/mdi_instagram.svg"
                             alt="Logo de Instagram"
                         /></a>
                     <a href="#">
                         <img
-                            src="/img/icons/ic_baseline-tiktok.svg"
+                            src="/assets/img/icons/ic_baseline-tiktok.svg"
                             alt="Logo de Tiktok"
                         /></a>
                 </div>
