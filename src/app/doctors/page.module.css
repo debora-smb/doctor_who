@@ -7,8 +7,7 @@
 .doctorCards{
     display: flex;
     justify-content: center;
-    border: solid red;
-    
+    border: solid red;    
 }
 
 .doctorCard{
