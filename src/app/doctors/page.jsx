@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Header />
       <main className={styles.main}>
-        <h1>Doctores</h1>
+        <h1 className={styles.doctorsTitle}>Doctores</h1>
         <section className={styles.doctorCards}>
           <div className={styles.doctorCard}>
             {doctorsData.doctors.map((doctor) => (

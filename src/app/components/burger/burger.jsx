@@ -1,7 +1,6 @@
 "use client"
 import React, {useState} from 'react';
 import styles from "./burger.module.css"
-import SearchBar from '../searchbar/searchbar';
 import SearchBarMobile from '../searchbar/searchbarmobile';
 
 export default function BurgerMenu() {
@@ -12,7 +11,7 @@ export default function BurgerMenu() {
             <a href="http://localhost:3000/">
                 <img
                     className={styles.headerMobileLogo}
-                    src="/img/logos/logo.png"
+                    src="/assets/img/logos/logo.png"
                     alt="Logo de Doctor Who"
                 />
             </a>    
