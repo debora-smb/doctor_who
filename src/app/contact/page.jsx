@@ -10,15 +10,15 @@ export default function Contact() {
       <main className={styles.main}>
         <section className={styles.backgroundSection}>
           <h1 className={styles.contactTitle}>Envía tu mensaje al Doctor</h1>
-          <img 
-            src="/assets/img/svg/persistencia.svg" 
-            alt="Persistencia" 
+          <img
+            src="/assets/img/svg/persistencia.svg"
+            alt="Persistencia"
             className={styles.backgroundBlue}
           />
           <img
+            className={styles.backgroundYellow}
             src="/assets/img/svg/resistencia.svg"
             alt="Resistencia"
-            className={styles.backgroundYellow}
           />
           <img
             src="/assets/img/svg/vencer.svg"
@@ -28,7 +28,6 @@ export default function Contact() {
         </section>
         <section className={styles.contactSection}>
           <ContactForm />
-          <button className={styles.contactButton}>Send</button>
         </section>
       </main>
       <Footer />

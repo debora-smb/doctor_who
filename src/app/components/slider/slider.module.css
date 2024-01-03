@@ -18,7 +18,9 @@
 }
 
 .sliderTitle{
-    font-size: 48px;
+    padding-top: 75px;
+    margin-left: -20px;
+    font-size: 40px;
     font-family: 'Lato', sans-serif;
     font-weight: 800;
 }
@@ -52,6 +54,4 @@ object-fit: cover;
     .sliderImage{
         height: 120%;
         }
-
-
 }

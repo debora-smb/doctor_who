@@ -12,10 +12,11 @@ export default function KnowPage() {
                 <div className={styles.mainContent}>
                     <section className={styles.knowDetails}>
                         <h1 className={styles.knowTitle}>Conoce a ... decimotercera doctor</h1>
+                        <img className={styles.knowImageMobile} src="/assets/img/doctors/Thirteenth_Doctor_Jodie_Whittaker.jpg" alt="Decimotercera doctor" />
                         <p className={styles.knowText}>Lorem ipsum dolor sit amet consectetur. Convallis maecenas ac pharetra metus justo amet nunc amet. Hac pellentesque proin sapien duis natoque. Risus enim duis quis egestas non. Morbi ut potenti egestas id pharetra gravida interdum nam.</p>
                         <Button/>
                     </section>
-                        <img className={styles.knowImage} src="/assets/img/doctors/Thirteenth_Doctor_Jodie_Whittaker.jpg" alt="Decimotercera doctor" />
+                        <img className={styles.knowImageDesktop} src="/assets/img/doctors/Thirteenth_Doctor_Jodie_Whittaker.jpg" alt="Decimotercera doctor" />
                 </div>
                 <div className={styles.knowBackground}>
                     <div className={styles.backgroundOne}>
