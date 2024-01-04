@@ -1,17 +1,17 @@
-.main{
+.main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-top: 2.5rem;
 }
 
-.contactSection{
+.contactSection {
   width: 100%;
   z-index: 3;
   padding: 1.25rem 3.125rem;
 }
 
-.contactTitle{
+.contactTitle {
   color: var(--tertiary-color);
   width: 90%;
   font-family: 'Lato', sans-serif;
@@ -21,7 +21,7 @@
   margin-left: 1.25rem;
 }
 
-.contactButton{
+.contactButton {
   background-color: var(--secundary-color);
   width: 15.65rem;
   height: 3.5rem;
@@ -34,71 +34,83 @@
   margin-top: 1.56rem;
 }
 
-.backgroundWhite{
+
+.backgroundWhite {
   z-index: 2;
   top: 27.5rem;
   width: 15.63rem;
   position: absolute;
-  }
-  
-  .backgroundYellow{
-    z-index: 1;
-    top: 15.94rem;
-    left: 11.88rem;
-    position: absolute;
-    width: 18.69rem;
-  }
-  
-  .backgroundBlue{
-    z-index: 0;
-    left:0.31rem;
-    top: 15rem;
-    width: 15rem;
-    position: absolute;
-  }
+}
 
-@media (min-width: 1000px)  {
-  .main{
+.backgroundYellow {
+  z-index: 1;
+  top: 15.94rem;
+  left: 11.4rem;
+  position: absolute;
+  width: 13rem;
+  overflow: hidden;
+}
+
+.backgroundYellow img {
+  top: 15.94rem;
+  left: 11rem;
+  width: 18.69rem;
+}
+
+.backgroundBlue {
+  z-index: 0;
+  left: 0.31rem;
+  top: 15rem;
+  width: 15rem;
+  position: absolute;
+}
+
+@media (min-width: 1000px) {
+  .main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 2.5rem 6.25rem;
   }
-  
-  .contactSection{
+
+  .contactSection {
     width: 40%;
-    padding-bottom: 3rem;
+    padding-bottom: 1.75rem;
   }
-  
-  .contactButton{
+
+  .contactButton {
     width: 15rem;
     font-size: 1.75rem;
     height: 2.88rem;
     margin-top: 0.94rem;
   }
-  
-  .contactTitle{
+
+  .contactTitle {
     width: 80%;
-    font-size: 3.5rem;
+    font-size: 3.13rem;
   }
-  
-  .backgroundWhite{
-  top: 27.5rem;
-  left:11.25rem;
-  width: 11.88rem;
-  
+
+  .backgroundWhite {
+    top: 27.5rem;
+    left: 11.25rem;
+    width: 11.88rem;
+
   }
-  
-  .backgroundYellow{
+
+  .backgroundYellow {
+    width: 30rem;
+    left: 18rem;
+  }
+
+  .backgroundYellow img {
     top: 14rem;
-    left: 18.75rem;
     width: 22.81rem;
   }
-  
-  .backgroundBlue{
-    left:13.75rem;
+
+  .backgroundBlue {
+    left: 13rem;
     top: 19rem;
-    width: 6.56rem;
+    width: 9rem;
   }
-  
+
 }

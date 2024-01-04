@@ -2,51 +2,51 @@
     background-color: var(--secundary-color);
     border: none;
     border-radius: 50px;
-    width: 210px;
-    height: 50px;
+    width: 13.13rem;
+    height: 3.13rem;
     color: var(--background-color);
     font-family: 'Lato' sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.37rem;
 }
 
 .buttonKnowPage{
     background-color: var(--secundary-color);
     border: none;
     border-radius: 50px;
-    width: 210px;
-    height: 50px;
+    width: 13.13rem;
+    height: 3.13rem;
     color: var(--background-color);
     font-family: 'Lato' sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.37rem;
 }
 
 .button {
     background-color: var(--secundary-color);
-    width: 210px;
-    height: 50px;
+    width: 13.13rem;
+    height: 3.13rem;
     color: var(--background-color);
     border-radius: 50px;
     border: none;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    font-size: 22px;
-    margin-left: -15px;
+    font-size: 1.37rem;
+    margin-left: -0.94rem;
 }
 
 @media (min-width: 1000px){
 
     .button {
-        width: 255px;
-        height: 74px;
-        font-size: 32px;
+        width: 16rem;
+        height: 4.6rem;
+        font-size: 2rem;
     }
 
 
     .buttonKnowPage{
-        width: 355px;
-        height: 74px;
-        font-size: 32px;
+        width: 22.2rem;
+        height: 4.6rem;
+        font-size: 2rem;
     }
 }

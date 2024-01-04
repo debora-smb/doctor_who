@@ -4,7 +4,7 @@ import BurgerMenu from '../burger/burger'
 import SearchBar from '../searchbar/searchbar'
 
 
-export default function Header({handleSearchChange}) {
+export default function Header({ handleSearchChange }) {
     return (
         <header className={styles.header}>
             <nav className={styles.headerNavbar}>
@@ -20,8 +20,8 @@ export default function Header({handleSearchChange}) {
                     alt="Logo de Doctor Who"
                 />
             </a>
-            <SearchBar handleSearchChange={handleSearchChange}/>
-            
+            <SearchBar handleSearchChange={handleSearchChange} />
+
             <div className={styles.headerIconsSection}>
                 <a href="#">
                     <Image

@@ -74,7 +74,7 @@ export default function ContactForm() {
           onChange={handleInputChange}
         />
       </Form.Group>
-      <button  className={styles.contactButton} type="submit">Enviar</button>
+      <button className={styles.contactButton} type="submit">Enviar</button>
     </Form>
   );
 }

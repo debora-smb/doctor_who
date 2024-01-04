@@ -5,7 +5,7 @@ export default function ButtonDoctors (){
         window.location.href = 'https://www.doctorwho.tv/';
       };
     return (
-        <button className={styles.ButtonDoctors} onClick={redirectToDrWho}>Ver más
+        <button className={styles.buttonDoctors} onClick={redirectToDrWho}>Ver más
         </button>
     )
 }

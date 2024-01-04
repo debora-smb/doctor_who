@@ -15,19 +15,19 @@ export default function KnowPage() {
                         <h1 className={styles.knowTitle}>Conoce a ... decimotercera doctor</h1>
                         <img className={styles.knowImageMobile} src="/assets/img/doctors/Thirteenth_Doctor_Jodie_Whittaker.jpg" alt="Decimotercera doctor" />
                         <p className={styles.knowText}>Lorem ipsum dolor sit amet consectetur. Convallis maecenas ac pharetra metus justo amet nunc amet. Hac pellentesque proin sapien duis natoque. Risus enim duis quis egestas non. Morbi ut potenti egestas id pharetra gravida interdum nam.</p>
-                        <ButtonKnowPage/>
+                        <ButtonKnowPage />
                     </section>
-                        <img className={styles.knowImageDesktop} src="/assets/img/doctors/Thirteenth_Doctor_Jodie_Whittaker.jpg" alt="Decimotercera doctor" />
+                    <img className={styles.knowImageDesktop} src="/assets/img/doctors/Thirteenth_Doctor_Jodie_Whittaker.jpg" alt="Decimotercera doctor" />
                 </div>
                 <div className={styles.knowBackground}>
                     <div className={styles.backgroundOne}>
-                    <Image
-                        
-                        src="/assets/img/svg/persistencia-2.svg"
-                        width={310}
-                        height={310}
-                        alt="Persistencia"
-                    />
+                        <Image
+
+                            src="/assets/img/svg/persistencia-2.svg"
+                            width={310}
+                            height={310}
+                            alt="Persistencia"
+                        />
                     </div>
                     <Image
                         className={styles.backgroundTwo}

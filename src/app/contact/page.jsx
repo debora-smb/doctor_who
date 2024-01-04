@@ -15,11 +15,12 @@ export default function Contact() {
             alt="Persistencia"
             className={styles.backgroundBlue}
           />
-          <img
-            className={styles.backgroundYellow}
-            src="/assets/img/svg/resistencia.svg"
-            alt="Resistencia"
-          />
+          <div className={styles.backgroundYellow}>
+            <img
+              src="/assets/img/svg/resistencia.svg"
+              alt="Resistencia"
+            />
+          </div>
           <img
             src="/assets/img/svg/vencer.svg"
             alt="Vencer"
