@@ -1,8 +1,9 @@
+"use client"
 import styles from './page.module.css'
 import Header from '../components/header/header'
 import Footer from '../components/footer/footer'
-import Button from '../components/buttons/button'
 import Image from 'next/image'
+import ButtonKnowPage from '../components/buttons/knowpage'
 
 export default function KnowPage() {
     return (
@@ -14,7 +15,7 @@ export default function KnowPage() {
                         <h1 className={styles.knowTitle}>Conoce a ... decimotercera doctor</h1>
                         <img className={styles.knowImageMobile} src="/assets/img/doctors/Thirteenth_Doctor_Jodie_Whittaker.jpg" alt="Decimotercera doctor" />
                         <p className={styles.knowText}>Lorem ipsum dolor sit amet consectetur. Convallis maecenas ac pharetra metus justo amet nunc amet. Hac pellentesque proin sapien duis natoque. Risus enim duis quis egestas non. Morbi ut potenti egestas id pharetra gravida interdum nam.</p>
-                        <Button/>
+                        <ButtonKnowPage/>
                     </section>
                         <img className={styles.knowImageDesktop} src="/assets/img/doctors/Thirteenth_Doctor_Jodie_Whittaker.jpg" alt="Decimotercera doctor" />
                 </div>

@@ -1,25 +1,30 @@
-.main{
+.doctorsMain {
     display: flex;
     flex-direction: column;
-    padding: 50px 60px;
+    padding: 40px 60px;
+    min-height: 542px;
 }
 
-.doctorsTitle{
+.doctorsTitle {
     color: var(--tertiary-color);
-    font-size: 50px;
+    font-size: 32px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    margin: 30px 0 30px 4%;
 }
 
-.doctorCards{
-    display: flex;
-    justify-content: center;
-    margin-left: 4%;    
+
+@media (min-width: 1000px){
+
+.doctorsTitle {
+    font-size: 48px;
+    margin: 0px  0 30px 100px
 }
 
-.doctorCard{
+.cardsContainer {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    max-width: 90%;
+    gap: 20px;
+    margin-left: 70px;
+}
 }

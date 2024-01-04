@@ -20,7 +20,7 @@ export default function BurgerMenu() {
                 <a href="/doctors"> Doctores</a>
                 <a href="/contact"> Contacto</a>
                 <div className={styles.mobileSearch}>
-                    <SearchBarMobile/>
+                    <SearchBarMobile />
                 </div>
                 <div className={styles.menuMobileIcons}>
                     <a href="#">

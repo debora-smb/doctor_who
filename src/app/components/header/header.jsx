@@ -1,10 +1,10 @@
 import styles from './header.module.css'
 import Image from 'next/image'
-import SearchBar from '../searchbar/searchbar'
 import BurgerMenu from '../burger/burger'
+import SearchBar from '../searchbar/searchbar'
 
 
-export default function Header() {
+export default function Header({handleSearchChange}) {
     return (
         <header className={styles.header}>
             <nav className={styles.headerNavbar}>
@@ -20,15 +20,8 @@ export default function Header() {
                     alt="Logo de Doctor Who"
                 />
             </a>
-            <div className={styles.headerSearchbar}>
-                <Image
-                    src="/assets/img/icons/material-symbols-light_search.svg"
-                    width={20}
-                    height={20}
-                    alt="Lupa"
-                />
-                <SearchBar />
-            </div>
+            <SearchBar handleSearchChange={handleSearchChange}/>
+            
             <div className={styles.headerIconsSection}>
                 <a href="#">
                     <Image
