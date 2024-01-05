@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import styles from "./burger.module.css"
 import SearchBarMobile from '../searchbar/searchbarmobile';
 
-export default function BurgerMenu() {
+export default function BurgerMenu({ handleSearchChange }) {
 
     const [isOpen, setIsOpen] = useState(false)
     return (
@@ -20,7 +20,7 @@ export default function BurgerMenu() {
                 <a href="/doctors"> Doctores</a>
                 <a href="/contact"> Contacto</a>
                 <div className={styles.mobileSearch}>
-                    <SearchBarMobile />
+                    <SearchBarMobile handleSearchChange={handleSearchChange}/>
                 </div>
                 <div className={styles.menuMobileIcons}>
                     <a href="#">

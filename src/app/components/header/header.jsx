@@ -56,7 +56,7 @@ export default function Header({ handleSearchChange }) {
                     />
                 </a>
             </div>
-            <div className={styles.burgerMenu}><BurgerMenu /></div>
+            <div className={styles.burgerMenu}><BurgerMenu handleSearchChange={handleSearchChange} /></div>
         </header>
     )
 }
